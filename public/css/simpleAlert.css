@@ -1,0 +1,87 @@
+:root{
+  --van-danger:#ff3333;
+  --van-warning:#ffaa2b;
+  --van-success:#6ABC6E;
+  --van-info:#47A8F5;
+}
+
+/*#region ALERT*/
+.van-alert-container{
+  position:fixed;
+  top:10%;
+  margin:20px 40%;
+}
+
+.van-alert {
+  color:white;
+  width:100%;
+  padding: 20px;
+  font-weight:bold;
+  background-color:var(--light-blue);
+  margin-bottom: 15px;
+  box-shadow:2px 1px 3px 2px #cccccc;
+}
+
+.danger{
+  background-color:var(--van-danger);
+}
+.warning{
+  background-color:var(--van-warning);
+}
+.success{
+  background-color:var(--van-success);
+}
+.info{
+  background-color:var(--van-info);
+}
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}  
+
+.none{
+display:none;
+}
+/*#endregion*/
+
+/*#region BUTTON*/
+button,.btn{
+  cursor:pointer;
+  background-color:none;
+  border:none;
+  padding:10px 14px;
+}
+
+button:hover,.btn:hover{
+  filter:brightness(75%);
+}
+/*#endregion*/
+
+/*BG COLOR*/
+.bg-red{
+  background-color: var(--main-red);
+}
+.bg-green{
+  background-color: var(--main-green);
+}
+
+/*TEXT COLOR*/
+.white{
+  color:white;
+}
+
+.black{
+  color:black;
+}
